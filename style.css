@@ -1,0 +1,16 @@
+body {
+    background-color: pink;
+}
+button {
+    width: 500px;
+    height: 100px;
+    background-color: white;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sad {
+    text-align: center;
+    color: black;
+    font-size: 72px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>wwszxs!</title>
+<style>
+    .container {
+        text-align: center;
+        margin-top: 50px;
+    }
+</style>
+</head>
+<body>
+    <p class="sad">Аля не сумуй!!!!!</p>
+<div class="container">
+    <img src="images/1.jpg" id="image" alt="Картинка" width="500" height="500">
+    <br><br>
+    <button onclick="змінитиКартинку()">Котик!!!!! для тебе!!!!!!!!!!!</button>
+</div>
+<script>
+    let поточнаКартинка = 1;
+    const кількістьКартинок = 60; // Замініть на кількість доступних картинок
+
+    function змінитиКартинку() {
+        поточнаКартинка++;
+        if (поточнаКартинка > кількістьКартинок) {
+            поточнаКартинка = 1;
+        }
+        document.getElementById('image').src = `images/${поточнаКартинка}.jpg`; // Замініть шлях і назву картинок на свої
+    }
+</script>
+</body>
+</html>
